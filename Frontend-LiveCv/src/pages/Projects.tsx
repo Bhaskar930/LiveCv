@@ -2,14 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "LiveCV - Talking Portfolio",
-      description:
-        "An interactive voice-based portfolio with Web Speech API and Lottie animations.",
-      tech: ["React", "Tailwind", "TypeScript", "Web Speech API"],
-      liveLink: "https://your-livecv-link.vercel.app",
-      githubLink: "https://github.com/Bhaskar930/LiveCv",
-    },
+    
     
     {
     title: "Second Brain – Note-taking App",
