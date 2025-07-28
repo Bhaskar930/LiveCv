@@ -42,7 +42,7 @@ const Home = () => {
           I’m open to internship or full-time roles. Let’s connect!
         </p>
 
-        <div className="flex justify-center gap-6 mt-4 text-xl text-blue-400">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mt-6 text-lg sm:text-xl text-blue-400 text-center px-4 break-words">
           <div className="hover:underline select-all">
             📧 negibhaskar19@gmail.com
           </div>
