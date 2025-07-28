@@ -43,10 +43,7 @@ const Home = () => {
         </p>
 
         <div className="flex justify-center gap-6 mt-4 text-xl">
-          <div className="mt-4 inline-block bg-gray-800 text-blue-300 px-4 py-2 rounded-lg shadow-md font-mono text-sm">
-            📧 Email:{" "}
-            <span className="select-all">negibhaskar19@gmail.com</span>
-          </div>
+          <div className="hover:underline select-all">📧 negibhaskar19@gmail.com</div>
 
           <a
             href="https://www.linkedin.com/in/bhaskar-negi-7578b2229/"
