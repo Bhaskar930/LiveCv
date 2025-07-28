@@ -43,9 +43,14 @@ const Home = () => {
         </p>
 
         <div className="flex justify-center gap-6 mt-4 text-xl">
-          <p className="text-blue-400 select-all">
-            📧 Email: negibhaskar19@gmail.com
-          </p>
+          <a
+            href="mailto:negibhaskar19@gmail.com"
+            className="text-blue-400 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📧 Email
+          </a>
 
           <a
             href="https://www.linkedin.com/in/bhaskar-negi-7578b2229/"
