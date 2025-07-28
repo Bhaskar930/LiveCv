@@ -9,11 +9,14 @@ const Home = () => {
 
       {/* 🔹 About Me Section */}
       <div className="px-6 py-10 max-w-3xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4 border-b border-gray-700 pb-2">About Me</h2>
+        <h2 className="text-3xl font-bold mb-4 border-b border-gray-700 pb-2">
+          About Me
+        </h2>
         <p className="text-lg leading-relaxed text-gray-300">
-          Hi, I’m Bhaskar Negi — a Full Stack Web Developer passionate about building responsive
-          and scalable applications. I specialize in the MERN stack and love solving real-world
-          problems with clean code and great UI/UX.
+          Hi, I’m Bhaskar Negi — a Full Stack Web Developer passionate about
+          building responsive and scalable applications. I specialize in the
+          MERN stack and love solving real-world problems with clean code and
+          great UI/UX.
         </p>
       </div>
 
@@ -32,15 +35,18 @@ const Home = () => {
 
       {/* 🔹 Contact Me Section */}
       <div className="px-6 py-14 max-w-3xl mx-auto text-center mt-16 border-t border-gray-800">
-        <h2 className="text-3xl font-bold mb-4 border-b border-gray-700 pb-2">Contact Me</h2>
+        <h2 className="text-3xl font-bold mb-4 border-b border-gray-700 pb-2">
+          Contact Me
+        </h2>
         <p className="text-lg text-gray-300 mb-4">
           I’m open to internship or full-time roles. Let’s connect!
         </p>
 
         <div className="flex justify-center gap-6 mt-4 text-xl">
-          <a href="mailto:negibhaskar19@gmail.com" className="text-blue-400 hover:underline">
-            📧 Email
-          </a>
+          <p className="text-blue-400 select-all">
+            📧 Email: negibhaskar19@gmail.com
+          </p>
+
           <a
             href="https://www.linkedin.com/in/bhaskar-negi-7578b2229/"
             target="_blank"
