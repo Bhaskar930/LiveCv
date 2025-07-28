@@ -42,22 +42,25 @@ const Home = () => {
           I’m open to internship or full-time roles. Let’s connect!
         </p>
 
-        <div className="flex justify-center gap-6 mt-4 text-xl">
-          <div className="hover:underline select-all">📧 negibhaskar19@gmail.com</div>
+        <div className="flex justify-center gap-6 mt-4 text-xl text-blue-400">
+          <div className="hover:underline select-all">
+            📧 negibhaskar19@gmail.com
+          </div>
 
           <a
             href="https://www.linkedin.com/in/bhaskar-negi-7578b2229/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-400 hover:underline"
+            className="hover:underline"
           >
             🔗 LinkedIn
           </a>
+
           <a
             href="https://github.com/Bhaskar930"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-400 hover:underline"
+            className="hover:underline"
           >
             💻 GitHub
           </a>
